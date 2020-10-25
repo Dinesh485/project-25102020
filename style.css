@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.title {
+  padding: 30px;
+  text-transform: capitalize;
+  background: #f2f2f2;
+}
+
+.title h1 {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+form {
+  font-family: 'Montserrat', sans-serif;
+  padding: 50px 0;
+}
+
+form .wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+form .wrapper p:first-child {
+  margin-bottom: 40px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+form .wrapper p:last-child {
+  font-size: 1.2rem;
+}
+
+form .wrapper p:last-child a {
+  color: #53b778;
+  font-weight: 500;
+}
+
+form .wrapper .inputs {
+  margin-bottom: 40px;
+}
+
+form .wrapper .inputs input, form .wrapper .inputs textarea {
+  display: block;
+  max-width: 420px;
+  width: 100%;
+  margin-bottom: 20px;
+  border: 2px solid black;
+  border-bottom: 2px solid gray;
+  border-right: 2px solid gray;
+  font-size: 1.1rem;
+  outline: none;
+  height: 30px;
+}
+
+form .wrapper .inputs label {
+  font-size: 1.2rem;
+  display: block;
+  margin-bottom: 5px;
+}
+
+form .wrapper .inputs textarea {
+  border: 1px solid gray;
+  min-height: 200px;
+}
+
+form .wrapper .inputs button {
+  background: none;
+  font-size: 1.1rem;
+  outline: none;
+  padding: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+  .title h1 {
+    font-size: 2.5rem;
+  }
+  form .wrapper p:first-child {
+    font-size: 1.3rem;
+  }
+  form .wrapper .inputs textarea {
+    min-width: 420px;
+    max-width: 420px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
